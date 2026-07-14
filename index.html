@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#071b33" />
+    <meta
+      name="description"
+      content="致敬阿根廷国家足球队三次世界杯夺冠历程的沉浸式网页海报。"
+    />
+    <title>ARGENTINA — 世界冠军</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="poster" id="top">
+      <div class="poster__image" aria-hidden="true"></div>
+      <div class="poster__wash" aria-hidden="true"></div>
+      <div class="grain" aria-hidden="true"></div>
+
+      <header class="masthead">
+        <a class="mark" href="#top" aria-label="回到海报顶部">
+          <span class="mark__sun" aria-hidden="true"></span>
+          <span>ARG</span>
+        </a>
+        <p class="masthead__edition">CAMPEONES DEL MUNDO · EDICIÓN 03</p>
+        <button class="sound-toggle" type="button" aria-pressed="false">
+          <span class="sound-toggle__bars" aria-hidden="true"><i></i><i></i><i></i></span>
+          <span class="sound-toggle__label">氛围</span>
+        </button>
+      </header>
+
+      <section class="hero" aria-labelledby="poster-title">
+        <p class="eyebrow reveal">LA ALBICELESTE · 1901—∞</p>
+        <h1 id="poster-title" class="title reveal">
+          <span>ARGEN</span><span>TINA</span>
+        </h1>
+        <p class="title-cn reveal">蓝白之心，从不停止跳动</p>
+      </section>
+
+      <aside class="stars" aria-label="世界杯夺冠年份">
+        <div class="stars__line" aria-hidden="true"></div>
+        <article class="star reveal">
+          <span class="star__glyph" aria-hidden="true">★</span>
+          <div><strong>1978</strong><small>BUENOS AIRES</small></div>
+        </article>
+        <article class="star reveal">
+          <span class="star__glyph" aria-hidden="true">★</span>
+          <div><strong>1986</strong><small>MÉXICO</small></div>
+        </article>
+        <article class="star reveal">
+          <span class="star__glyph" aria-hidden="true">★</span>
+          <div><strong>2022</strong><small>QATAR</small></div>
+        </article>
+      </aside>
+
+      <div class="manifesto reveal">
+        <p>ONCE EN LA CANCHA</p>
+        <p>CUARENTA Y SEIS MILLONES EN EL ALMA</p>
+      </div>
+
+      <footer class="footer">
+        <p>三颗星 · 一件球衣 · 一个国家的呼吸</p>
+        <a href="#legacy">向下看冠军印记 <span aria-hidden="true">↓</span></a>
+      </footer>
+    </main>
+
+    <section class="legacy" id="legacy" aria-labelledby="legacy-title">
+      <div class="legacy__heading reveal">
+        <p>LA HISTORIA NO TERMINA</p>
+        <h2 id="legacy-title">荣耀留下的<br />不是句号。</h2>
+      </div>
+      <div class="legacy__copy reveal">
+        <p>
+          1978，在主场第一次触碰金杯；1986，让世界记住蓝白色的天才；
+          2022，漫长等待终于变成漫天纸屑。
+        </p>
+        <p>每一代都有自己的号码。每一代，共享同一片蓝白。</p>
+      </div>
+      <div class="legacy__stamp reveal" aria-label="三届世界冠军">
+        <strong>3×</strong><span>WORLD<br />CHAMPIONS</span>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
