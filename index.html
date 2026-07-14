@@ -6,13 +6,14 @@
     <meta name="theme-color" content="#071b33" />
     <meta
       name="description"
-      content="致敬阿根廷国家足球队三次世界杯夺冠历程的沉浸式网页海报。"
+      content="阿根廷国家与国家足球队专题：国家简介、世界杯历史成绩及2026世界杯26人名单。"
     />
     <title>ARGENTINA — 世界冠军</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <main class="poster" id="top">
+    <main>
+    <section class="poster" id="top">
       <div class="poster__image" aria-hidden="true"></div>
       <div class="poster__wash" aria-hidden="true"></div>
       <div class="grain" aria-hidden="true"></div>
@@ -22,7 +23,11 @@
           <span class="mark__sun" aria-hidden="true"></span>
           <span>ARG</span>
         </a>
-        <p class="masthead__edition">CAMPEONES DEL MUNDO · EDICIÓN 03</p>
+        <nav class="masthead__nav" aria-label="页面导航">
+          <a href="#country">国家</a>
+          <a href="#history">历史</a>
+          <a href="#squad">阵容</a>
+        </nav>
         <button class="sound-toggle" type="button" aria-pressed="false">
           <span class="sound-toggle__bars" aria-hidden="true"><i></i><i></i><i></i></span>
           <span class="sound-toggle__label">氛围</span>
@@ -60,9 +65,9 @@
 
       <footer class="footer">
         <p>三颗星 · 一件球衣 · 一个国家的呼吸</p>
-        <a href="#legacy">向下看冠军印记 <span aria-hidden="true">↓</span></a>
+        <a href="#country">认识蓝白之国 <span aria-hidden="true">↓</span></a>
       </footer>
-    </main>
+    </section>
 
     <section class="legacy" id="legacy" aria-labelledby="legacy-title">
       <div class="legacy__heading reveal">
@@ -80,6 +85,142 @@
         <strong>3×</strong><span>WORLD<br />CHAMPIONS</span>
       </div>
     </section>
+
+    <section class="country" id="country" aria-labelledby="country-title">
+      <div class="section-index reveal" aria-hidden="true">ARG / 01</div>
+      <header class="section-heading reveal">
+        <p class="section-kicker">THE COUNTRY BEHIND THE SHIRT</p>
+        <h2 id="country-title">先有这片土地，<br />才有这身蓝白。</h2>
+      </header>
+      <div class="country__passport reveal">
+        <div class="country__sun" aria-hidden="true"><span></span></div>
+        <p class="country__name">REPÚBLICA<br />ARGENTINA</p>
+        <p class="country__code">ARG · SOUTH AMERICA · GMT−3</p>
+      </div>
+      <div class="country__story reveal">
+        <p class="country__lead">
+          阿根廷位于南美洲最南端，是世界上面积最大的西班牙语国家，也是拉丁美洲面积第二大的国家。
+          从安第斯山到潘帕斯草原，再到巴塔哥尼亚，辽阔地貌塑造了强烈而多元的国家气质。
+        </p>
+        <p>
+          足球在这里不只是一项运动。街区俱乐部、家庭传承与国家队共同构成日常语言；
+          当蓝白球衣出现，四千六百多万人的身份被压缩成同一种呼吸。
+        </p>
+      </div>
+      <dl class="country__facts reveal">
+        <div><dt>首都</dt><dd>布宜诺斯艾利斯</dd><small>BUENOS AIRES</small></div>
+        <div><dt>人口</dt><dd>46,234,830</dd><small>2022 NATIONAL CENSUS</small></div>
+        <div><dt>国土面积</dt><dd>3,761,274 km²</dd><small>OFFICIAL TERRITORY</small></div>
+        <div><dt>官方语言</dt><dd>西班牙语</dd><small>ESPAÑOL</small></div>
+      </dl>
+    </section>
+
+    <section class="history" id="history" aria-labelledby="history-title">
+      <div class="section-index reveal" aria-hidden="true">AFA / 02</div>
+      <header class="section-heading section-heading--light reveal">
+        <p class="section-kicker">SIX FINALS · THREE STARS</p>
+        <h2 id="history-title">一条通往<br />第三颗星的路。</h2>
+      </header>
+      <div class="history__scoreboard reveal" aria-label="世界杯历史数据">
+        <div><strong>19</strong><span>届世界杯<br />参赛经历</span></div>
+        <div><strong>6</strong><span>次闯入<br />世界杯决赛</span></div>
+        <div><strong>3</strong><span>次捧起<br />大力神杯</span></div>
+      </div>
+      <ol class="finals reveal" aria-label="阿根廷世界杯决赛时间线">
+        <li><time>1930</time><span>亚军</span><small>2—4 乌拉圭</small></li>
+        <li class="is-champion"><time>1978</time><span>冠军 ★</span><small>3—1 荷兰 · 加时</small></li>
+        <li class="is-champion"><time>1986</time><span>冠军 ★</span><small>3—2 西德</small></li>
+        <li><time>1990</time><span>亚军</span><small>0—1 西德</small></li>
+        <li><time>2014</time><span>亚军</span><small>0—1 德国 · 加时</small></li>
+        <li class="is-champion"><time>2022</time><span>冠军 ★</span><small>3—3 法国 · 点球 4—2</small></li>
+      </ol>
+      <div class="champion-stories">
+        <article class="champion-card reveal">
+          <p>BUENOS AIRES</p><strong>1978</strong><h3>第一颗星，在家门口升起</h3>
+          <span>肯佩斯在决赛梅开二度，阿根廷加时击败荷兰，首次成为世界冠军。</span>
+        </article>
+        <article class="champion-card reveal">
+          <p>CIUDAD DE MÉXICO</p><strong>1986</strong><h3>属于十号的世界杯</h3>
+          <span>马拉多纳主导整届赛事，决赛由布鲁查加完成制胜一击，第二颗星就位。</span>
+        </article>
+        <article class="champion-card reveal">
+          <p>LUSAIL</p><strong>2022</strong><h3>三十六年的等待落地</h3>
+          <span>梅西贡献 7 球 3 助攻；阿根廷在经典决赛的点球大战中击败法国。</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="squad" id="squad" aria-labelledby="squad-title">
+      <div class="section-index reveal" aria-hidden="true">WC26 / 03</div>
+      <header class="section-heading section-heading--light reveal">
+        <p class="section-kicker">THE TITLE DEFENCE · 26 PLAYERS</p>
+        <h2 id="squad-title">守冠者，<br />与下一代。</h2>
+      </header>
+      <div class="squad__intro reveal">
+        <p>
+          斯卡洛尼率领的 26 人名单延续了卡塔尔冠军骨架，也加入了巴尔科、尼科·帕斯等新面孔。
+          这支队伍的关键词不是复制 2022，而是在经验与速度之间重新找到平衡。
+        </p>
+        <div><small>HEAD COACH</small><strong>LIONEL<br />SCALONI</strong><span>2018—NOW</span></div>
+      </div>
+
+      <div class="player-grid" aria-label="核心球员简介">
+        <article class="player-card player-card--captain reveal">
+          <div class="player-card__shirt"><span>MESSI</span><strong>10</strong></div>
+          <div class="player-card__body"><p>前锋 · 队长</p><h3>利昂内尔·梅西</h3><span>球队的比赛语言与精神坐标。2022 世界杯贡献 7 球 3 助攻，并第二次获得赛事金球奖。</span></div>
+        </article>
+        <article class="player-card reveal">
+          <div class="player-card__shirt"><span>MARTÍNEZ</span><strong>23</strong></div>
+          <div class="player-card__body"><p>门将</p><h3>埃米利亚诺·马丁内斯</h3><span>禁区里的情绪核心。凭关键扑救与点球大战表现，赢得 2022 世界杯金手套。</span></div>
+        </article>
+        <article class="player-card reveal">
+          <div class="player-card__shirt"><span>ROMERO</span><strong>13</strong></div>
+          <div class="player-card__body"><p>中后卫</p><h3>克里斯蒂安·罗梅罗</h3><span>前压、防守侵略性与出球兼备，是球队把防线推向中场的重要支点。</span></div>
+        </article>
+        <article class="player-card reveal">
+          <div class="player-card__shirt"><span>DE PAUL</span><strong>7</strong></div>
+          <div class="player-card__body"><p>中场</p><h3>罗德里戈·德保罗</h3><span>覆盖、逼抢与向前输送构成中场发动机，也承担连接梅西与整体体系的任务。</span></div>
+        </article>
+        <article class="player-card reveal">
+          <div class="player-card__shirt"><span>MAC ALLISTER</span><strong>20</strong></div>
+          <div class="player-card__body"><p>中场</p><h3>亚历克西斯·麦卡利斯特</h3><span>能在多个中场位置切换，以接球方向和传球节奏维持球队的攻守平衡。</span></div>
+        </article>
+        <article class="player-card reveal">
+          <div class="player-card__shirt"><span>FERNÁNDEZ</span><strong>24</strong></div>
+          <div class="player-card__body"><p>中场</p><h3>恩佐·费尔南德斯</h3><span>远射、推进与长传让中场拥有纵深；2022 世界杯最佳年轻球员。</span></div>
+        </article>
+        <article class="player-card reveal">
+          <div class="player-card__shirt"><span>ÁLVAREZ</span><strong>9</strong></div>
+          <div class="player-card__body"><p>前锋</p><h3>胡利安·阿尔瓦雷斯</h3><span>无球压迫与纵向冲刺兼备，既能牵制防线，也能在禁区内完成终结。</span></div>
+        </article>
+        <article class="player-card player-card--new reveal">
+          <div class="player-card__shirt"><span>BARCO</span><strong>∞</strong></div>
+          <div class="player-card__body"><p>中场 · 新生代</p><h3>巴伦丁·巴尔科</h3><span>2026 名单中最年轻的球员，以大胆持球与创造力为蓝白军团带来新的节奏。</span></div>
+        </article>
+      </div>
+
+      <div class="roster reveal">
+        <header><p>OFFICIAL 26</p><h3>2026 世界杯完整名单</h3><span>公布于 2026.05.28</span></header>
+        <div class="roster__groups">
+          <section><h4>门将 / 3</h4><p>埃米利亚诺·马丁内斯<br />赫罗尼莫·鲁利<br />胡安·穆索</p></section>
+          <section><h4>后卫 / 8</h4><p>贡萨洛·蒙铁尔<br />纳韦尔·莫利纳<br />利桑德罗·马丁内斯<br />尼古拉斯·奥塔门迪<br />莱昂纳多·巴莱尔迪<br />克里斯蒂安·罗梅罗<br />尼古拉斯·塔利亚菲科<br />法昆多·梅迪纳</p></section>
+          <section><h4>中场 / 7</h4><p>乔瓦尼·洛塞尔索<br />莱安德罗·帕雷德斯<br />罗德里戈·德保罗<br />埃塞基耶尔·帕拉西奥斯<br />恩佐·费尔南德斯<br />亚历克西斯·麦卡利斯特<br />巴伦丁·巴尔科</p></section>
+          <section><h4>前锋 / 8</h4><p>利昂内尔·梅西<br />尼古拉斯·冈萨雷斯<br />朱利亚诺·西蒙尼<br />劳塔罗·马丁内斯<br />何塞·曼努埃尔·洛佩斯<br />胡利安·阿尔瓦雷斯<br />蒂亚戈·阿尔马达<br />尼科·帕斯</p></section>
+        </div>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <a class="mark" href="#top"><span class="mark__sun" aria-hidden="true"></span><span>ARG</span></a>
+      <p>蓝白之心，从不停止跳动。</p>
+      <div class="sources">
+        <span>资料来源 · 更新于 2026.07.14</span>
+        <a href="https://www.argentina.gob.ar/node/208638" target="_blank" rel="noreferrer">阿根廷政府：国家资料 ↗</a>
+        <a href="https://www.fifa.com/en/tournaments/mens/worldcup/articles/teams-most-wins-titles-trophies" target="_blank" rel="noreferrer">FIFA：世界杯历史 ↗</a>
+        <a href="https://www.afa.com.ar/inicio/posts/lista-de-los-26-jugadores-de-la-seleccion-argentina-para-defender-el-titulo-en-la-copa-del-mundo-2026" target="_blank" rel="noreferrer">AFA：2026 最终名单 ↗</a>
+      </div>
+    </footer>
+    </main>
 
     <script src="script.js"></script>
   </body>
